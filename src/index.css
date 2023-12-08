@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+
+    --gray: #ABB2BF;
+    --primary: #C778DD;
+}
+
+body{
+    font-family: 'Fira Code', monospace;
+    background-color: #282C33;
+}
+.text-primary{
+    color: var(--primary);
+}
+.text-gray{
+    color: var(--gray);
+}
