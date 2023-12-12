@@ -5,35 +5,43 @@ const Skills = () => {
 	const skills = [
 		{
 			name: 'HTML',
-			percentage: 80,
+			percentage: 95,
 		},
 		{
 			name: 'CSS',
-			percentage: 80,
+			percentage: 90,
 		},
 		{
 			name: 'JavaScript',
 			percentage: 80,
 		},
 		{
-			name: 'React',
-			percentage: 80,
+			name: 'ReactJS',
+			percentage: 85,
 		},
 		{
 			name: 'NodeJS',
-			percentage: 80,
+			percentage: 70,
 		},
 		{
 			name: 'MongoDB',
-			percentage: 80,
+			percentage: 90,
 		},
 		{
-			name: 'React',
-			percentage: 80,
+			name: 'Tailwind CSS',
+			percentage: 94,
 		},
 		{
-			name: 'React',
-			percentage: 80,
+			name: 'Bootstrap',
+			percentage: 90,
+		},
+		{
+			name: 'Material UI',
+			percentage: 70,
+		},
+		{
+			name: 'Mongoose',
+			percentage: 75,
 		},
 	];
 	return (

@@ -2,7 +2,7 @@ import { Link } from 'react-scroll';
 import { Navbar } from 'flowbite-react';
 
 const Header = () => {
-	const navItems = ['projects', 'about-me', 'contacts'];
+	const navItems = ['about-me', 'projects', 'contact'];
 
 	return (
 		<div className="">
@@ -33,7 +33,7 @@ const Header = () => {
 					<Navbar.Toggle />
 					<Navbar.Collapse>
 						{navItems.map((navItem, idx) => (
-							<Link key={idx} to={navItem}>
+							<Link offset={-50} key={idx} to={navItem} smooth={true}>
 								<p className="hover:font-bold transition cursor-pointer">
 									<span className="text-[var(--secondary)]">#</span>
 									{navItem}

@@ -31,8 +31,9 @@ const Hero = () => {
 						}}
 					/>
 					<a
-						href="https://drive.google.com/file/d/1g-di96n6zVeAeWCTCYCtpB3eb5ts2SQD/view"
-						rel="noopenner"
+						href="https://drive.google.com/uc?export=download&id=1g-di96n6zVeAeWCTCYCtpB3eb5ts2SQD"
+						target="_blank"
+						rel="noopener noreferrer"
 					>
 						<button
 							className=" bounce-top align-middle flex  gap-3 mt-10 select-none font-sans font-bold text-center uppercase transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 px-6 rounded-lg border border-[--primary] text-[--primary] hover:opacity-75  active:opacity-[0.85]"

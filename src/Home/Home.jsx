@@ -5,6 +5,8 @@ import Header from '../components/Header/Header';
 import Hero from '../components/Hero/Hero';
 import Skills from '../components/Skills/Skills';
 import About from '../components/About/About';
+import Contact from '../components/Contact/Contact';
+import MyFooter from '../components/MyFooter/MyFooter';
 
 const topComponent = (
 	<>
@@ -20,6 +22,7 @@ const Home = () => {
 			<Skills />
 			<About />
 			<Projects />
+			<Contact />
 			<ScrollToTop
 				top={200}
 				style={{
@@ -29,6 +32,7 @@ const Home = () => {
 				component={topComponent}
 				smooth={true}
 			/>
+			<MyFooter />
 		</div>
 	);
 };
