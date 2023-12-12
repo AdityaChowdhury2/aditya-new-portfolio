@@ -3,9 +3,7 @@ import { Element } from 'react-scroll';
 const Projects = () => {
 	return (
 		<Element name="projects">
-			{/* <section className="mt-96">
-				<p> Hello I Am Projects </p>
-			</section> */}
+			<section className="my-10 md:my-20"></section>
 		</Element>
 	);
 };

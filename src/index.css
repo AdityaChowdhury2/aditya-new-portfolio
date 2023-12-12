@@ -5,18 +5,19 @@
 @tailwind utilities;
 
 :root{
-
-    --gray: #ABB2BF;
-    --primary: #C778DD;
+    --background:#d9d4dd;
+    --primary: #382356;
+    --secondary: #ab97b6;
 }
 
 body{
     font-family: 'Fira Code', monospace;
-    background-color: #282C33;
+    background: var(--background);
+    
 }
-.text-primary{
+.primary{
     color: var(--primary);
 }
-.text-gray{
+.gray{
     color: var(--gray);
 }

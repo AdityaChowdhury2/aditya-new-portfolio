@@ -2,6 +2,9 @@ import ScrollToTop from 'react-scroll-to-top';
 import { FaArrowUp } from 'react-icons/fa6';
 import Projects from '../components/Projects/Projects';
 import Header from '../components/Header/Header';
+import Hero from '../components/Hero/Hero';
+import Skills from '../components/Skills/Skills';
+import About from '../components/About/About';
 
 const topComponent = (
 	<>
@@ -13,6 +16,9 @@ const Home = () => {
 	return (
 		<div className="relative">
 			<Header />
+			<Hero />
+			<Skills />
+			<About />
 			<Projects />
 			<ScrollToTop
 				top={200}
