@@ -172,8 +172,8 @@ const About = () => {
 								</div>
 							</TabPanel>
 							<TabPanel>
-								<div className="md:px-5 flex flex-col justify-center sm:py-6 md:py-24 lg:py-28">
-									<Parallax rotateX={['60deg', '0deg']}>
+								<div className="md:px-5 flex flex-col justify-center py-4 md:py-20 lg:py-24">
+									<Parallax rotateX={['70deg', '0deg']}>
 										<ul
 											data-aos="fade-up"
 											data-aos-anchor-placement="top-bottom"
@@ -185,14 +185,14 @@ const About = () => {
 												</span>
 												<div className="flex items-center h-3 gap-4">
 													<span className="relative z-[2] w-max flex-shrink-0 overflow-hidden rounded-full bg-[var(--primary)] p-1.5 text-white"></span>
-													<h6 className="block  text-base antialiased font-semibold leading-none tracking-normal text-blue-[var(--primary)]">
+													<h6 className="block  text-base antialiased font-semibold leading-none tracking-normal md:text-xl text-blue-[var(--primary)]">
 														Problem Solving With C
 													</h6>
 												</div>
 												<div className="flex gap-4 pb-8">
 													<span className="flex-shrink-0 invisible h-full pointer-events-none"></span>
 													<div>
-														<p className="block  text-sm antialiased font-normal leading-normal text-[var(--primary)]">
+														<p className="block  text-sm antialiased font-normal leading-normal md:text-base text-[var(--primary)]">
 															That&apos;s how I started my Programming Journey
 														</p>
 													</div>
@@ -204,14 +204,14 @@ const About = () => {
 												</span>
 												<div className="flex items-center h-3 gap-4">
 													<span className="relative z-[2] w-max flex-shrink-0 overflow-hidden rounded-full bg-[var(--primary)] p-1.5 text-white"></span>
-													<h6 className="block  text-base antialiased font-semibold leading-none tracking-normal text-blue-[var(--primary)]">
+													<h6 className="block  text-base antialiased font-semibold leading-none tracking-normal md:text-xl text-blue-[var(--primary)]">
 														Workshop in Cyber Security
 													</h6>
 												</div>
 												<div className="flex gap-4 pb-8">
 													<span className="flex-shrink-0 invisible h-full pointer-events-none"></span>
 													<div>
-														<p className="block  text-sm antialiased font-normal leading-normal text-[var(--primary)]">
+														<p className="block  text-sm antialiased font-normal leading-normal md:text-base text-[var(--primary)]">
 															In this workshop I learned how a web application
 															can be vulnerable and basic security features.
 														</p>
@@ -224,14 +224,14 @@ const About = () => {
 												</span>
 												<div className="flex items-center h-3 gap-4">
 													<span className="relative z-[2] w-max flex-shrink-0 overflow-hidden rounded-full bg-[var(--primary)] p-1.5 text-white"></span>
-													<h6 className="block  text-base antialiased font-semibold leading-none tracking-normal text-blue-[var(--primary)]">
+													<h6 className="block  text-base  md:text-xl antialiased font-semibold leading-none tracking-normal text-blue-[var(--primary)]">
 														Workshop in Machine Learning
 													</h6>
 												</div>
 												<div className="flex gap-4 pb-8">
 													<span className="flex-shrink-0 invisible h-full pointer-events-none"></span>
 													<div>
-														<p className="block  text-sm antialiased font-normal leading-normal text-[var(--primary)]">
+														<p className="block  text-sm antialiased font-normal leading-normal md:text-base text-[var(--primary)]">
 															In this workshop I learned about different machine
 															learning algorithms in python
 														</p>
@@ -241,14 +241,14 @@ const About = () => {
 											<li className="relative flex flex-col gap-3">
 												<div className="flex items-center h-3 gap-4">
 													<span className="relative z-[2] w-max flex-shrink-0 overflow-hidden rounded-full bg-[var(--primary)] p-1.5 text-white"></span>
-													<h6 className="block  text-base antialiased font-semibold tracking-normal text-blue-[var(--primary)] leading-5">
+													<h6 className="block  text-base antialiased font-semibold tracking-normal text-blue-[var(--primary)] md:text-xl leading-5">
 														Smart India Hackathon 2020
 													</h6>
 												</div>
 												<div className="flex gap-4">
 													<span className="flex-shrink-0 invisible h-full pointer-events-none"></span>
 													<div>
-														<p className="block  text-sm antialiased font-normal leading-normal text-[var(--primary)]">
+														<p className="block  text-sm antialiased font-normal leading-normal md:text-base text-[var(--primary)]">
 															In this Hackathon we developed a security solution
 															for Crime Bureau
 														</p>
