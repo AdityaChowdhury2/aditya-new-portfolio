@@ -1,5 +1,6 @@
 import { Element } from 'react-scroll';
 import SectionHeading from '../Shared/SectionHeading';
+// import Tilt from 'react-parallax-tilt';
 
 const Projects = () => {
 	return (
@@ -7,14 +8,14 @@ const Projects = () => {
 			<section className="my-10 md:my-20 text-[var(--primary)]">
 				<div className="container ">
 					<SectionHeading title={'projects'} />
-					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 md:mt-8 px-8 gap-4 md:gap-8">
+					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-4 md:mt-8 px-8 gap-8 md:gap4 md:gap-8">
 						<div
-							className="w-full rounded min-h-[400px] bg-[var(--secondary)] border- p-4 group relative "
+							className="w-full rounded min-h-[350px] bg-[var(--secondary)] border- p-4 group relative"
 							style={{ boxShadow: 'rgba(56, 35, 86, 0.4) 8px 8px 0px 0px' }}
 						>
 							<div className="w-full h-[220px] md:h-[300px] overflow-hidden rounded">
 								<img
-									className="w-full hover:-translate-y-[74%] duration-[5000ms] "
+									className="w-full hover:-translate-y-[46%] duration-[5000ms]"
 									src="https://i.ibb.co/9T6RSdY/Tech-Trove-Home.png"
 									alt=""
 								/>
@@ -43,13 +44,14 @@ const Projects = () => {
 								</div>
 							</div>
 						</div>
+
 						<div
-							className="w-full rounded min-h-[350px] bg-[var(--secondary)] border- p-4 group relative "
+							className="w-full rounded min-h-[350px] bg-[var(--secondary)] border- p-4 group relative"
 							style={{ boxShadow: 'rgba(56, 35, 86, 0.4) 8px 8px 0px 0px' }}
 						>
 							<div className="w-full h-[220px] md:h-[300px] overflow-hidden rounded">
 								<img
-									className="w-full hover:-translate-y-[74%] duration-[5000ms] "
+									className="w-full hover:-translate-y-[46%] duration-[5000ms] "
 									src="https://i.ibb.co/x8B9zWp/Majesty-Royal-Home.png"
 									alt=""
 								/>
@@ -82,7 +84,7 @@ const Projects = () => {
 						>
 							<div className="w-full h-[220px] md:h-[300px] overflow-hidden rounded">
 								<img
-									className="w-full hover:-translate-y-[74%] duration-[5000ms] "
+									className="w-full hover:-translate-y-[46%] duration-[5000ms] "
 									src="https://i.ibb.co/0ZQgghM/Digital-Dynamo-Home.png"
 									alt=""
 								/>
